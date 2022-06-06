@@ -22,6 +22,7 @@ namespace AutoFacLiftimeTest
 
         public void Dispose()
         {
+            _logger.LogInformation("I've been disposed");
             _isDisposed = true;
         }
 
